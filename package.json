@@ -2,6 +2,9 @@
   "name": "github-labels-batch",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "check": "bunx @biomejs/biome check --apply ."
+  },
   "devDependencies": {
     "@biomejs/biome": "1.5.3",
     "@types/bun": "latest"
