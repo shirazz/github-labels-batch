@@ -9,14 +9,10 @@ const octokit = new Octokit({
 	auth: Bun.env.GH_TOKEN,
 });
 
-async function addingLabel(
-	name: string,
-	description: string,
-	color: string,
-) {
+async function addingLabel(name: string, description: string, color: string) {
 	await octokit.request("POST /repos/{owner}/{repo}/labels", {
-		owner: Bun.env.GH_OWNER || '',
-		repo: Bun.env.GH_REPO || '',
+		owner: Bun.env.GH_OWNER || "",
+		repo: Bun.env.GH_REPO || "",
 		name,
 		description,
 		color,
@@ -28,11 +24,7 @@ async function addingLabel(
 
 // * loop through labels and create them one by one
 for (const label of labels) {
-	await addingLabel(
-		label.name,
-		label.description,
-		label.color,
-	)
+	await addingLabel(label.name, label.description, label.color)
 		.then(() => {
 			console.log(`Label ${label.name} created!`);
 		})
