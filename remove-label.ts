@@ -9,7 +9,7 @@ const octokit = new Octokit({
 	auth: Bun.env.GH_TOKEN,
 });
 
-async function removeLabels(name: string) {
+async function removeLabel(name: string) {
 	await octokit.request("DELETE /repos/{owner}/{repo}/labels/{name}", {
 		owner: Bun.env.GH_OWNER || "",
 		repo: Bun.env.GH_REPO || "",
@@ -20,11 +20,11 @@ async function removeLabels(name: string) {
 	});
 }
 
-// * loop through labels and create them one by one
+// * loop through labels and delete them one by one
 for (const label of labels) {
-	await removeLabels(label.name)
+	await removeLabel(label.name)
 		.then(() => {
-			console.log(`Label ${label.name} created!`);
+			console.log(`Label ${label.name} removed!`);
 		})
 		.catch((err) => {
 			console.log(err);
