@@ -35,6 +35,11 @@
     "color": "FFFF00"
   },
   {
+    "name": "Status:Testing In Progress",
+    "description": "The bug is actively being worked on by the QA team.",
+    "color": "E9C727"
+  },
+  {
     "name": "Status:Testing Failed",
     "description": "QA testing revealed that the fix does not resolve the issue, or it introduced new problems.",
     "color": "8B0000"

@@ -6,13 +6,16 @@
     "check": "bunx @biomejs/biome check --apply ."
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
+    "@biomejs/biome": "1.9.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@octokit/core": "^5.1.0"
-  }
+    "@octokit/core": "^6.1.2"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ]
 }

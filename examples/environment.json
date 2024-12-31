@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Env:Dev",
+    "description": "Code pushed to the dev server",
+    "color": "6DDEF0"
+  },
+  {
+    "name": "Env:Staging",
+    "description": "Code pushed to the staging server",
+    "color": "007FFF"
+  },
+  {
+    "name": "Env:Canary",
+    "description": "Code pushed to the canary/production server",
+    "color": "FFA500"
+  },
+  {
+    "name": "Env:Production",
+    "description": "Code pushed to the production server",
+    "color": "00FF00"
+  }
+]

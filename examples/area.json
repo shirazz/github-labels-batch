@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Area:UI/UX",
+    "description": "For issues related to user interface or user experience.",
+    "color": "00FFFF"
+  },
+  {
+    "name": "Area:Frontend",
+    "description": "For bugs in the client-side codebase.",
+    "color": "7CFC00"
+  },
+  {
+    "name": "Area:Backend",
+    "description": "For bugs in server-side logic.",
+    "color": "1E90FF"
+  },
+  {
+    "name": "Area:Database",
+    "description": "For issues related to database or querying.",
+    "color": "228B22"
+  },
+  {
+    "name": "Area:API",
+    "description": "For issues with application programming interfaces.",
+    "color": "800080"
+  },
+  {
+    "name": "Area:Authentication/Authorization",
+    "description": "For bugs affecting user login, permissions, or access control.",
+    "color": "FFA500"
+  },
+  {
+    "name": "Area:Performance",
+    "description": "For issues related to speed, optimization, or resource usage.",
+    "color": "FF4500"
+  },
+  {
+    "name": "Area:Mobile",
+    "description": "For issues specific to mobile devices or platforms.",
+    "color": "FFFF00"
+  },
+  {
+    "name": "Area:Browser-Specific",
+    "description": "For bugs occurring in specific browsers.",
+    "color": "D3D3D3"
+  },
+  {
+    "name": "Area:Accessibility",
+    "description": "For issues related to compliance with accessibility standards.",
+    "color": "008080"
+  },
+  {
+    "name": "Area:Localization/Internationalization (L10n/I18n)",
+    "description": "For problems with translations, formatting, or locale-specific behaviors.",
+    "color": "A52A2A"
+  },
+  {
+    "name": "Area:DevOps/Infrastructure",
+    "description": "For issues with deployment, CI/CD, or server environments.",
+    "color": "696969"
+  },
+  {
+    "name": "Area:Security",
+    "description": "For vulnerabilities or potential threats.",
+    "color": "8B0000"
+  },
+  {
+    "name": "Area:Analytics/Tracking",
+    "description": "For issues with data collection or reporting tools.",
+    "color": "FF69B4"
+  },
+  {
+    "name": "Area:Third-Party Integration",
+    "description": "For issues involving external services or libraries.",
+    "color": "E6E6FA"
+  },
+  {
+    "name": "Area:Notifications",
+    "description": "For problems with system alerts, emails, or push notifications.",
+    "color": "ADD8E6"
+  },
+  {
+    "name": "Area:Testing/QA",
+    "description": "For issues within the test automation or QA tools.",
+    "color": "4B0082"
+  },
+  {
+    "name": "Area:Documentation",
+    "description": "For errors or gaps in project documentation.",
+    "color": "F4A460"
+  }
+]

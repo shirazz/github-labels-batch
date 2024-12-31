@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Severity:Critical",
+    "color": "FF0000",
+    "description": "Indicates a show-stopping issue that affects core functionality or blocks further progress."
+  },
+  {
+    "name": "Severity:High",
+    "color": "FFA500",
+    "description": "A major issue that significantly impacts functionality but may have a workaround."
+  },
+  {
+    "name": "Severity:Medium",
+    "color": "FFFF00",
+    "description": "A moderate issue that impacts functionality but does not critically impede progress."
+  },
+  {
+    "name": "Severity:Low",
+    "color": "00FF00",
+    "description": "A minor issue that has little to no impact on overall functionality."
+  },
+  {
+    "name": "Severity:Trivial",
+    "color": "808080",
+    "description": "Issues that are barely noticeable and do not require immediate attention."
+  }
+]
